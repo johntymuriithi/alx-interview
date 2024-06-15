@@ -5,6 +5,11 @@ here comes the pascals triangle
 
 
 def pascal_triangle(n):
+    """
+
+    :param n: number of times to interate
+    :return: list of list of intergers
+    """
     if n <= 0:
         return []
 
