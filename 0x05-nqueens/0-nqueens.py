@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""queens staff here"""
 import sys
 
 
@@ -28,6 +29,7 @@ def print_solutions(solutions):
 
 
 def main():
+    """our main file"""
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
